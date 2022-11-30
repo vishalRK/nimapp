@@ -1,0 +1,285 @@
+  html, body
+  {
+    color: white;
+    
+  }
+  ul{
+    list-style-type: none;
+    margin-left: 360px;
+    margin-top:25px;
+  }
+  .nav h1
+  {
+    margin-left:280px;
+    
+  }
+  .nav ul li
+  {
+    margin-left: 10px;
+    display:inline-flex;
+  }
+  .nav
+  {
+    display: flex;
+  }
+  .first
+  {
+    background-color: brown;
+  }
+  .crt1
+  {
+    margin-left: 455px;
+    color: gray;
+    
+  }
+  .crt2
+  {
+    color:aliceblue;
+  }
+  .crt3
+  {
+    color: rgba(202, 202, 202, 0.925);
+  }
+  .crt4
+  {
+    color:rgb(185, 177, 177) ;
+    margin-bottom: 20px;
+  }
+
+  .crt
+  {
+    margin-left:5px;
+  }
+  /*Second Contentg*/
+  .secondContent
+  {
+    margin-left: 280px ;
+    margin-top:100px;
+    font-style: italic;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  #text1
+  {
+    width: 690px;
+    height: 30px;
+    font-style: italic;
+  }
+  #btn1
+  {
+    
+    margin-left:50px;
+    height: 30px;
+    background-color: rgb(123, 186, 238);
+    color: white;
+    border: none;
+    width: 80px;
+  }
+  #text4
+  {
+    margin-left:190px;
+  }
+
+  #te
+  {
+    margin-left:5px;
+  }
+  #tr
+  {
+    background-color: white;
+    color: black;
+    height: 20px;
+    width: 20px;
+  }
+  #btn2
+  {
+    margin-left: 450px;
+    background-color: rgb(123, 186, 238);
+    color: white;
+    width:80px;
+    height: 30px;
+    margin-top:80px;
+    margin-bottom:50px;
+
+
+  }
+  /* thirdcontent */
+  .thirdcontent
+  {
+    color: black;
+    text-align: center;
+
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  hr
+  {
+    margin-top:30px;
+    margin-bottom: 35px;
+    width:110px;
+    height: 2px;
+    background-color: rgb(123, 186, 238);
+  }
+  h2{
+    color: gray;
+    font-weight: 400;
+  }
+  h1
+  {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 40;
+    font-style: normal;
+  }
+  #btn3
+  {
+    border:1px solid rgb(95, 179, 218);
+    color: rgb(95, 179, 218);
+    background-color: white;
+    text-align: center;
+    height: 50px;
+    width: 250px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    
+  }
+  /* Fourth Content*/
+  .fourthContent
+  {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 100px;
+    
+  }
+  h3
+  {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:200;
+
+  }
+  .fourthContent i{
+    margin-left: 30px;
+  }
+
+  .fourthContent input
+  {
+    background-color: black;
+    border:none;
+  }
+  .fourthContent span
+  {
+    border:1px solid rgb(95, 179, 218);
+    
+    display: block;
+    text-align: center;
+    width: 300px;
+    margin-left:490px;
+    height: 20px;
+    border-radius: 5px ;
+  padding: 10px;
+
+
+
+    
+  }
+  .title input
+  {
+    font-style: italic;
+    margin-right: 70px;
+  }
+  /*Footer Content*/
+  footer
+  {
+    background-color: rgb(218, 215, 215);
+    padding-left: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: left;
+    
+    
+  }
+  .footer b
+  {
+    color: black;
+  }
+  .footer i
+  {
+    color:rgb(100, 122, 245);
+    font-size:25px;
+    margin-top:5px;
+  }
+  .tst
+  {
+    
+    margin-left: 5px;
+    height: 16px;
+    background-color: white;
+    border: none;
+    padding: 3px;
+  }
+  .footer .tweet
+  {
+    font-size: 15px;
+  }
+  .footer button
+  {
+    height: 15px;
+    
+    margin-top: 12px;
+    font-size: 15px;
+    padding-bottom: 25px;
+    color:rgb(87, 109, 238);
+    background-color: rgb(255, 255, 255);
+  }
+  .footer .tst1
+  {
+    border:0.5px solid rgb(19, 183, 224);
+    
+    width: 29px;
+    height: 18px;
+    text-align: center;
+    
+  }
+  .footer .triangle
+  {
+    width: 0; 
+    height: 0; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent; 
+    
+    border-right:10px solid blue;
+  }
+  .fourthContent .right
+  {
+    font-size: 5px;
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+
+
+  .we 
+  {
+    display: flex; 
+    flex-wrap: wrap;
+    
+  }
+  .sc
+  {
+    margin-left: 350px;
+  }
+  @media (max-width: 768px)
+  {
+    div{
+      display: block;
+      margin-left: 5px;
+    }
+  }
+  .modal-header
+  {
+    background-color: rgb(124, 202, 235);;
+  }
